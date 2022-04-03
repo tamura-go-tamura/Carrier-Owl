@@ -52,7 +52,6 @@ def search_keyword(
         if (score != 0) and (score >= score_threshold):
             title_trans = get_translated_text('ja', 'en', title)
             abstract = abstract.replace('\n', '')
-            print(abstract)
             abstract_trans = get_translated_text('ja', 'en', abstract)
             # abstract_trans = textwrap.wrap(abstract_trans, 40)  # 40行で改行
             # abstract_trans = '\n'.join(abstract_trans)
@@ -143,6 +142,7 @@ def get_translated_text(from_lang: str, to_lang: str, from_text: str) -> str:
 def get_text_from_page_source(html: str) -> str:
     soup = BeautifulSoup(html, features='lxml')
     target_elem = soup.find(class_="lmt__translations_as_text__text_btn")
+    print(target_elem)
     text = target_elem.text
     return text
 
