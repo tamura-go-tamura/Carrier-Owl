@@ -11,6 +11,7 @@ keywords:
     quantum: 3
     statistical mechanics: 3
     MCMC: 3
+    bayes: 1
 
 # 通知の閾値
 score_threshold: 0
