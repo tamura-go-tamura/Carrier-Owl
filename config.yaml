@@ -5,13 +5,16 @@ subject: 'cat:physics.* OR cat:cs.*'
 keywords:
     quantum computer: 5
     quantum information: 5
-    generative model: 4
-    optimisation: 4
+    quantum algorithm: 5
+    generative model: 3
+    optimisation: 3
     tensor network: 4
-    quantum: 3
+    VQE: 3
+    Imaginary time: 3
     statistical mechanics: 3
     MCMC: 3
     bayes: 1
+    ising: 1
 
 # 通知の閾値
-score_threshold: 0
+score_threshold: 2
