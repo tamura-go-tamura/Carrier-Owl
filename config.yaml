@@ -1,11 +1,15 @@
 # arxivの学問領域の指定
-subject: 'cat:cs.*'
+subject: 'cat:physics.* OR cat:cs.*'
 
 # 検索キーワード
 keywords:
-        kaggle: 3
-        resnet: 3
-        anomaly detection: 1
+    quantum computer: 5
+    quantum information: 5
+    generative model: 4
+    optimisation: 4
+    tensor network: 4
+    quantum: 3
+    MCMC: 3
 
 # 通知の閾値
 score_threshold: 0
