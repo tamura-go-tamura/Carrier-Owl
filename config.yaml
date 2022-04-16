@@ -3,17 +3,17 @@ subject: 'cat:physics.* OR cat:cs.*'
 
 # 検索キーワード
 keywords:
-    quantum computer: 5
-    quantum information: 4
-    quantum algorithm: 5
+    quantum computer: 1
+    quantum information: 1
+    quantum algorithm: 1
     generative model: 1
-    optimisation: 3
+    optimisation: 1
     tensor network: 4
     statistical mechanics: 3
     Statistical physics: 3
     MCMC: 3
-    phase transition: 4
-    RUC: 4
+    phase transition: 3
+    RUC: 1
     ising: 1
 
 # 通知の閾値
